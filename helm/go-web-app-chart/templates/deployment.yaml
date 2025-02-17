@@ -7,7 +7,8 @@ metadata:
 spec:
   replicas: 1
   selector:
-    app: go-web-app
+    matchLabels:
+     app: go-web-app
   template:
     metadata:
       labels:
